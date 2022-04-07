@@ -1,0 +1,23 @@
+:root {
+  --backgroundPage: #f3f4f5;
+  --titleColor: black;
+  --textColor: #757575;
+}
+
+* {
+  margin: 0;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  color: var(--titleColor);
+}
+
+p, ul {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  color: var(--textColor);
+  margin-bottom: 2rem;
+  line-height: 26px;
+}
